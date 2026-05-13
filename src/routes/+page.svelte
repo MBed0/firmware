@@ -45,7 +45,7 @@
 		<p class="mb-7 text-xl">The powerful open-source ESP32 firmware designed for offensive security and Red Team operations.</p>
 		<div class="flex gap-4">
 			<a
-				href="https://github.com/pr3y/Bruce"
+				href="https://github.com/BruceDevices/Firmware"
 				target="_blank"
 				class="inline-blocktransition rounded-lg bg-[#9B51E0] px-6 py-2 text-center text-lg font-bold text-white"
 				style="color: white;"
@@ -82,7 +82,7 @@
 		<div class="flex justify-center">
 			<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
 				<Card size="xs">
-					<h3 class="mb-3 text-lg font-bold">⚡ True Open-Source</h3>
+					<h3 class="mb-3 text-lg font-bold">True Open-Source</h3>
 					<p>
 						Bruce fw is licensed under <b><a href="https://www.gnu.org/licenses/agpl-3.0.en.html#license-text" target="_blank">AGPL</a></b>, and
 						Hardware is
@@ -94,26 +94,26 @@
 					</p>
 				</Card>
 				<Card size="xs">
-					<h3 class="mt-3 mb-3 text-lg font-bold">🖥️ Cross-Platform</h3>
+					<h3 class="mt-3 mb-3 text-lg font-bold">Cross-Platform</h3>
 					<p>Bruce runs seamlessly on M5Stack, LilyGo, and other ESP32-based devices.</p>
 				</Card>
 				<Card size="xs">
-					<h3 class="mt-3 mb-3 text-lg font-bold">📶 2.4/5Ghz Wi-Fi Attacks</h3>
+					<h3 class="mt-3 mb-3 text-lg font-bold">2.4/5Ghz Wi-Fi Attacks</h3>
 					<p>
 						Supports Evil Portal, Wardriving, EAPOL handshake capture, Deauth
 						<b><a href="https://github.com/BruceDevices/firmware/?tab=readme-ov-file#wifi" target="_blank">and more</a></b>.
 					</p>
 				</Card>
 				<Card size="xs">
-					<h3 class="mt-3 mb-3 text-lg font-bold">📜 Documentation</h3>
-					<p>The project has every information about the features and modules supported available on github.</p>
+					<h3 class="mt-3 mb-3 text-lg font-bold">Documentation</h3>
+          <p>The project has every information about the features and modules supported available on <a href="https://wiki.bruce.computer/">wiki</a>.</p>
 				</Card>
 				<Card size="xs">
-					<h3 class="mt-3 mb-3 text-lg font-bold">📡 SubGHz and RFID</h3>
+					<h3 class="mt-3 mb-3 text-lg font-bold">SubGHz and RFID</h3>
 					<p>Supports several modules and devices with frequency transceivers.</p>
 				</Card>
 				<Card size="xs">
-					<h3 class="mt-3 mb-3 text-lg font-bold">🚀 Active Community</h3>
+					<h3 class="mt-3 mb-3 text-lg font-bold">Active Community</h3>
 					<p>Regular updates and community-driven improvements.</p>
 				</Card>
 			</div>
@@ -156,10 +156,6 @@
 		<Btn className="mt-5 ml-2" href="https://forum.bruce.computer">Join our forum!</Btn>
 	</div>
 </div>
-
-<br>
-<center><h3>This site contains: No cookies, No Ads, No trackers.</h3></center>
-<br>
 
 <style>
 	.container {
