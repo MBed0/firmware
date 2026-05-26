@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	const VERSION = '1.14';
+	const VERSION = '1.15';
 
 	import Card from '$lib/components/Card.svelte';
 	import News from '$lib/components/News.svelte';
@@ -136,8 +136,8 @@
 			</News>
 			<News title="Bruce RF Reaper">
 				<p class="mb-4 text-[1.2rem]">Open Source Bruce PCB, fully compatible with Bruce</p>
-				<Btn href="https://github.com/BruceDevices/firmware/tree/main/pcbs">Download</Btn>
-				<Btn href="https://www.elecrow.com/bruce-pcb-rf-reaper.html" outline className="max-sm:mt-2">Buy</Btn>
+				<Btn href="https://bruce.computer/boards">Download</Btn>
+				<Btn href="https://bruce-devices.myshopify.com/" outline className="max-sm:mt-2">Buy</Btn>
 			</News>
 		</div>
 	</div>

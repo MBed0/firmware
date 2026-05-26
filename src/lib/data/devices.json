@@ -286,5 +286,22 @@
 		"Battery": "None",
 		"Flash": "16MB",
 		"PSRAM": "8MB"
+	},
+	{
+		"device": "Elecrow 24B",
+		"CC1101": "Module Required",
+		"NRF24": "Module Required",
+		"FMRadio": "Module Required",
+		"NFC": "Module Required",
+		"Mic": false,
+		"BadUSB": false,
+		"RGB_Led": true,
+		"Audio": "Tone",
+		"Screen": "320x240",
+		"ESP": "ESP32-WROOM-32",
+		"Battery": "None",
+		"Flash": "16MB",
+		"PSRAM": "8MB"
 	}
+
 ]
