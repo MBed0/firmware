@@ -1,9 +1,15 @@
 #pragma once
+
 #if !defined(LITE_VERSION)
 #include <Arduino.h>
-#include <NimBLEAdvertisedDevice.h>
 #include <NimBLEDevice.h>
-#include <NimBLEServer.h>
+#include <NimBLEAdvertising.h>
+
+// Menü sisteminde kullanılacak buton/seçenek yapısı
+struct Option {
+    const char* name;
+    void (*callback)();
+};
 
 struct ApplePayload {
     const char* name;
@@ -11,6 +17,7 @@ struct ApplePayload {
     uint8_t length;
 };
 
+// Fonksiyon Prototipleri
 void appleSubMenu();
 void startAppleSpam(int payloadIndex);
 void startAppleSpamAll();
@@ -19,4 +26,5 @@ void quickAppleSpam(int payloadIndex);
 bool isAppleSpamRunning();
 const char* getApplePayloadName(int index);
 int getApplePayloadCount();
+
 #endif
