@@ -3,7 +3,6 @@
 #if !defined(LITE_VERSION)
 #include <Arduino.h>
 #include <NimBLEDevice.h>
-#include <NimBLEAdvertising.h>
 
 // Menü sisteminde kullanılacak buton/seçenek yapısı
 struct Option {
@@ -15,6 +14,11 @@ struct ApplePayload {
     const char* name;
     const uint8_t* data;
     uint8_t length;
+};
+
+struct DeviceType {
+    uint32_t value;
+    String name;
 };
 
 // Fonksiyon Prototipleri
